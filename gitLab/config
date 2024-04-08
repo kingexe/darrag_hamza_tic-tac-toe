@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "tp"]
+	url = http://localhost:8080/root/darrag_hamza_tic-tac-toe
+	fetch = +refs/heads/*:refs/remotes/tp/*
+[branch "dev"]
+	remote = tp
+	merge = refs/heads/dev
+[branch "main"]
+	remote = tp
+	merge = refs/heads/main
